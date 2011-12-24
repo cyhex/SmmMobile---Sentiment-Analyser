@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+body {
+	color: #ccc;
+	font-family: arial,sans-serif;
+    font-size: small;
+    margin: 0px;
+    padding: 10px;
+}
+a{
+	color: #006699;
+}
+</style>
+</head>
+<body>
+
+<div style="text-align: center;">
+<h3>Twitter sentiment analysis</h3>
+<div>Free and Open-sourced</div>
+</div>
+
+<p>SmmMobile is a Real-Time, Twitter Sentiment Analyzer tool, based on Naive Bayes classifier as demonstrated on <a href="http://smm.streamcrab.com">smm.streamcrab.com</a> </p>
+<p>It tries to determine the attitude (Positve or Negative) of writer with respect to some topic or the overall tonality of a document</p>
+<p>
+<b>How it works</b>
+</p>
+
+<p>Every Tweet is analyzed for presence or absence of particular word/combination of words against training Dataset, 
+that gives as a probability that a given text is positive or negative. Then all the probabilities combined together 
+in order to calculate the overal tonality of Twitter chatter with respect to given topic or subject
+</p>
+
+<p>Limitations</p>
+<p>- Each query is limited to 50 pulls, thats about 5000 Tweets.<br>
+- Each IP is limited to 200 pulls / hour </p>
+
+
+<p>If you need more than above specified limits, consider deploying your own Classifier Server or <a href="http://smm.streamcrab.com/contact">contact me</a></p>
+
+
+
+<p><a href="https://github.com/cyhex/">Source code available under GPL license</a></p>
+
+</body>
+</html>

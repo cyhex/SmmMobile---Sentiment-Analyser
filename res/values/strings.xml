@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SmmMobileActivity!</string>
+    <string name="app_name">SmmMobile</string>
+    <string name="twitter_sentiment_analysis">Twitter sentiment analysis</string>
+    <string name="Free_and_Open_sourced">Free and Open-sourced</string>
+    <string name="search">Search</string>
+    <string name="tdv">Total Data Volume</string>
+    <string name="total">Total</string>
+    <string name="positive">Positive</string>
+    <string name="neutral">Neutral</string>
+    <string name="negative">Negative</string>
+    <string name="cumulative">Cumulative</string>
+    <string name="avg_score">Avg Sentiment Score</string>
+
+</resources>
